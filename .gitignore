@@ -48,4 +48,4 @@ Thumbs.db
 .uv/
 
 # project
-./git-push
+git-push
