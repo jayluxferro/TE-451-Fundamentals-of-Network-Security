@@ -26,8 +26,9 @@ def chinese_remainder(n, a):
     return x, N
 
 
-# Example usage:
-n = [2, 3, 5]
-a = [1, 2, 0]  # Congruences: x ≡ 1 (mod 2), x ≡ 2 (mod 3), x ≡ 0 (mod 5)
-x, N = chinese_remainder(n, a)
-print(f"Solution to system of congruences: x ≡ {x} (mod {N})")
+if __name__ == "__main__":
+    # Example usage:
+    n = [2, 3, 5]
+    a = [1, 2, 0]  # Congruences: x ≡ 1 (mod 2), x ≡ 2 (mod 3), x ≡ 0 (mod 5)
+    x, N = chinese_remainder(n, a)
+    print(f"Solution to system of congruences: x ≡ {x} (mod {N})")

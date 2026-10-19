@@ -45,6 +45,7 @@ def miller_rabin(n, k=5):  # number of iterations (k)
     return True
 
 
-# Example usage:
-print(miller_rabin(25))   # Composite number: returns False
-print(miller_rabin(23))   # Prime number: returns True
+if __name__ == "__main__":
+    # Example usage:
+    print(miller_rabin(25))   # Composite number: returns False
+    print(miller_rabin(23))   # Prime number: returns True
